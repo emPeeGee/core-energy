@@ -1,0 +1,4 @@
+@import '../abstract/mixins';
+
+@include font('Noto', 'NotoSans', 'Regular', 400);
+@include font('Noto', 'NotoSans', 'Bold', 700);

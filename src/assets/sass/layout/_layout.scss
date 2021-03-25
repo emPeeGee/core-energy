@@ -1,0 +1,10 @@
+.core-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .core-container {
+    margin: 0 2rem;
+  }
+}

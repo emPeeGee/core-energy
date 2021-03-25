@@ -1,0 +1,18 @@
+.pdf-only {
+  display: none;
+}
+
+@media print {
+  .pdf-exclude {
+    display: none;
+  }
+
+  .pdf-only {
+    display: block;
+  }
+
+  .px-8 {
+    padding-right: 8rem !important;
+    padding-left: 8rem !important;
+  }
+}
