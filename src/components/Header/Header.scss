@@ -1,0 +1,19 @@
+@import '../../assets//sass/abstract/variables';
+
+.Header {
+  background-color: $dark_lila;
+  border-bottom: 1rem solid $orange;
+
+  &__logo {
+    display: flex;
+    justify-content: flex-end;
+    & img {
+      width: 30%;
+    }
+  }
+
+  &__date {
+    text-align: center;
+    color: $white;
+  }
+}
